@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.Title {
+  margin-top: 120px;
+  margin-bottom: 0px;
+}
+.Title .Subtitle {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+.Title .Subtitle h3 {
+  margin: 0;
+  color: #ADADAD;
+  letter-spacing: 1px;
+}
+.Title h1 {
+  font-size-adjust: 1.35;
+  letter-spacing: 5px;
+  color: #5EDEBC;
+}
+
+.Section {
+  margin: 100px 0px;
+}
+
+.Form {
+  width: 80%;
+  min-height: 10vmax;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.TickButton {
+  max-width: 40px;
+  cursor: pointer;
+}
+
+.Nav {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.Nav h1 {
+  color: #5EDEBC;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Nav h1:hover {
+  color: #ff9f43;
+}
+.Nav li {
+  flex: 1;
+  list-style: none;
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+  color: #707070;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Nav li:hover {
+  cursor: pointer;
+  border-bottom: #5EDEBC 2px solid;
+}
+.Nav .Left {
+  display: flex;
+  order: 0;
+  flex: 1;
+  align-self: auto;
+}
+.Nav .Right {
+  display: flex;
+  order: 0;
+  flex: 0.2;
+}
+
+input {
+  padding: 5px;
+  border: 0;
+  border-bottom: #707070 1px solid;
+  transition: all 0.25s ease-in-out;
+}
+
+input:focus {
+  border-bottom: #ff9f43 1px solid;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,80 @@
+$gray: #707070;
+$gray-light: #ADADAD;
+
+
+
+section.card {
+  border: 3px solid #5EDEBC;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 15vmax;
+  position: relative;
+
+  .card-title {
+    font-family: 'Open Sans Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    padding: 20px 0;
+    border-bottom: 2px solid $gray-light;
+  }
+
+  h1 {
+    color: $gray;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.4em;
+  }
+
+  p {
+    color: black;
+  }
+
+  .text {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    color: #5EDEBC;
+    margin: 5px 15px;
+    padding: 4px;
+  }
+
+  .footer {
+    margin: 0;
+
+    .submit-button {
+      padding: auto 50px;
+      margin-top: 40px;
+      width: 100%;
+      font-family: "Montserrat", sans-serif;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: #5EDEBC;
+      color: white;
+      transition: 0.15s all ease;
+      cursor: pointer;
+    }
+
+    .submit-button:hover {
+      background-color: darken(#5EDEBC, 15);
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 1060px) {
+  section.card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  section.card {
+    width: 95%;
+  }
+}
